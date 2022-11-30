@@ -127,8 +127,8 @@ line.margin.visible=1
 line.margin.width=4
 margin.width=16
 fold.margin.width=16
-fold.margin.colour=#1E1E1E
-fold.margin.highlight.colour=#1E1E1E
+fold.margin.colour=#2E2E2E
+fold.margin.highlight.colour=#2E2E2E
 #blank.margin.left=4
 #blank.margin.right=4
 buffered.draw=1
@@ -160,9 +160,9 @@ caret.back=#DEFEE6
 caret.line.back.alpha=256
 caretline.visible=1
 
-edge.column=80
-edge.mode=0
-edge.colour=#66FAFA
+edge.column=100
+edge.mode=1
+edge.colour=#2E2E2E
 braces.check=1
 braces.sloppy=1
 #selection.fore=#006000
@@ -197,7 +197,7 @@ indent.closing=0
 fold=1
 fold.compact=1
 fold.flags=16
-fold.symbols=1
+fold.symbols=3
 #fold.on.open=1
 fold.comment=1
 fold.preprocessor=1
@@ -235,10 +235,11 @@ caret.policy.yjumps=0
 #code.page=932
 #character.set=128
 # Unicode
-#code.page=65001
+code.page=65001
+output.code.page=65001
 #character.set=204
 # ANSI code page
-code.page=0
+#code.page=0
 # Required for Unicode to work on GTK+:
 #LC_CTYPE=en_US.UTF-8
 
@@ -246,9 +247,9 @@ code.page=0
 # Define values for use in the imported properties files
 chars.alpha=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 chars.numeric=0123456789
-chars.accented=ŠšŒœŸÿÀàÁáÂâÃãÄäÅåÆæÇçÈèÉéÊêËëÌìÍíÎîÏïĞğÑñÒòÓóÔôÕõÖØøÙùÚúÛûÜüİıŞşßöµ
+chars.accented=Ğ‰Ñ™ĞŠÑšÑŸÑĞĞ°Ğ‘Ğ±Ğ’Ğ²Ğ“Ğ³Ğ”Ğ´Ğ•ĞµĞ–Ğ¶Ğ—Ğ·Ğ˜Ğ¸Ğ™Ğ¹ĞšĞºĞ›Ğ»ĞœĞ¼ĞĞ½ĞĞ¾ĞŸĞ¿Ğ Ñ€Ğ¡ÑĞ¢Ñ‚Ğ£ÑƒĞ¤Ñ„Ğ¥Ñ…Ğ¦Ğ¨ÑˆĞ©Ñ‰ĞªÑŠĞ«Ñ‹Ğ¬ÑŒĞ­ÑĞ®ÑĞ¯Ñ†Âµ
 # This is a better set for Russian:
-#chars.accented=ÀàÁáÂâÃãÄäÅå¨¸ÆæÇçÈèÉéÊêËëÌìÍíÎîÏïĞğÑñÒòÓóÔôÕõÖö×÷ØøÙùÚúÛûÜüİıŞşßÿ
+#chars.accented=ĞĞ°Ğ‘Ğ±Ğ’Ğ²Ğ“Ğ³Ğ”Ğ´Ğ•ĞµĞÑ‘Ğ–Ğ¶Ğ—Ğ·Ğ˜Ğ¸Ğ™Ğ¹ĞšĞºĞ›Ğ»ĞœĞ¼ĞĞ½ĞĞ¾ĞŸĞ¿Ğ Ñ€Ğ¡ÑĞ¢Ñ‚Ğ£ÑƒĞ¤Ñ„Ğ¥Ñ…Ğ¦Ñ†Ğ§Ñ‡Ğ¨ÑˆĞ©Ñ‰ĞªÑŠĞ«Ñ‹Ğ¬ÑŒĞ­ÑĞ®ÑĞ¯Ñ
 
 
 # Give symbolic names to the set of fonts used in the standard styles.
